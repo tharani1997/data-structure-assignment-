@@ -1,0 +1,13 @@
+a.) for(i=1;i<=n;i++)
+for(j=i;i<=n;j++)
+printf("Hi");
+
+-->  O(1 + n/2 + 100)
+     O(n)
+
+b.) for(i=1;i<=n;i*=3)
+for(j=1;i<=n;j++)
+printf("Hello");
+
+-->  O(n + n2)
+     O(n2)
